@@ -1,5 +1,6 @@
 
 import './App.css'
+import githublogo from "../images/github_logo.svg";
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     <div>
       <h1>Hey Universe</h1>
       <a href="https://github.com/AndreasB09">
-        <img src="./images/github_logo.svg" alt="github logo" id="github"></img>
+        <img src={githublogo} alt="github logo" id="github"></img>
       </a>
     </div>
   );
